@@ -1,0 +1,196 @@
+body{
+    font-family: Ubuntu;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+.site-header.home {
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(img/header_1_bg.jpg);
+    z-index: 1;
+    color: #fff;
+}
+.site-header {
+    background: #00AA87;
+    margin-bottom: 30px;
+}
+.first-line{
+    display: flex;
+    padding: 40px;
+}
+.navbar-logo{
+    padding: 0 40px;
+}
+.dropmenu ul{
+    list-style-type: none;
+}
+.dropmenu ul li{
+    padding: 5px;
+}
+.text-center{
+    text-align: center !important;
+}
+
+.form-search{
+    padding: 0 150px 90px 150px;
+}
+.search-input{
+    border-radius: 9px;
+    position: relative;
+    z-index: 1;
+    border: 4px solid #00CFA5;
+    padding: 20px 20px;
+}
+.button-header{
+    color:blanchedalmond;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    padding: 0;
+    outline: none;
+    margin-left: 4px;
+}
+.header-slogan{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.header-nav{
+    margin: 0;
+    margin-left: auto;
+    padding: 0 0 0 30px;
+    display: flex;
+    list-style-type: none;
+}
+.header-nav li a{
+    padding: 14px 15px 12px 15px;
+    line-height: 1.6em;
+    color: #fff;
+    white-space: nowrap;
+    background: transparent;
+    border-bottom: transparent solid 5px;
+}
+.header-nav li a:hover{
+    border-bottom-color: #00AA87;
+}
+.button-search-hidden{
+    position: relative;
+    top: 4px;
+    order: 999;
+    margin-left: auto;  
+}
+.btnwhite{
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 6px;
+    text-align: center;
+    padding: 10px 25px;
+    margin-top: 0;
+    text-indent: 0;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+.header-search-button{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    height: 70px;
+    margin: 4px 5px 4px 0;
+    border: none;
+    border-left: solid 1px #f0F0F0;
+    background: transparent;
+    padding: 0px 15px 0 15px;
+    border-left: none;
+}
+.header-search-button img{
+    position: relative;
+    top: -1px;
+    margin-left: 5px;
+}
+.header-search-mobile-controller{
+    position: relative;
+    top: 4px;
+    order: 999;
+    margin-left: auto;
+    display: block;
+}
+.titlecontent{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+    border-bottom: transparent solid 5px;
+    position: relative;
+    padding: 0 0 8px 0px;
+    display: flex;
+    align-items: center;
+}
+.titlecontent:hover{
+    color: #00AA87;
+    border-bottom-color: #00AA87;
+}
+.content-items{
+    list-style-type: none;
+    padding: 10px 0 20px 0;
+}
+.content-items li a{
+    color:black;
+    text-decoration: none;
+    list-style-type: none;
+    border-bottom: 5px solid transparent;
+}
+.content-items li a.showMore{
+    color: #00AA87;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.content-items li a.showMore:hover{
+    color: #00AA87;
+}
+.content-items li a:hover{
+   color:chartreuse;
+}
+.page-footer{
+    background: #1E242F;
+    color: #FFF;
+    padding: 40px 0;
+}
+.footer-items{
+    list-style-type: none;
+}
+.footer-items li {
+    padding-left: 14px;
+    background: url(img/Ellipse12.png) no-repeat left 7px;
+}
+.footer-items li a{
+    color: #90A4AF;
+}
+a{  
+    text-decoration: none;
+    background-color: transparent;
+}
+ul li{
+    padding-bottom: 20px;
+    line-height: 20px;
+}
